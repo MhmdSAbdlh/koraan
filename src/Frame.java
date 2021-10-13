@@ -1,3 +1,4 @@
+import java.awt.ComponentOrientation;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -29,7 +30,7 @@ public class Frame extends JFrame implements ActionListener{
 	JLabel sRemaining = new JLabel("السور المتبقية: 62");
 	JLabel todayS = new JLabel("سورة اليوم: غير محدد");
 	JLabel titleF = new JLabel();
-	JLabel credit = new JLabel("تصميم و برمجة محمد عبدالله");
+	final JLabel credit = new JLabel("تصميم و برمجة محمد عبدالله");
 	JProgressBar progress = new JProgressBar();
 	StringBuffer sb;
 	
@@ -51,6 +52,11 @@ public class Frame extends JFrame implements ActionListener{
 		panel.setBounds(10, 120, 1260, 500);
 		panel.setLayout(new GridLayout(9, 7));
 		panel.setBorder(Main.darkB);
+		JButton emptyB = new JButton();
+		emptyB.setEnabled(false);
+		emptyB.setForeground(Main.textC);
+		emptyB.setBackground(Main.darkC);
+		emptyB.setBorder(Main.lightB);
 		for(int i=0;i<Data.sowar.size();i++) {
 			label[i] = new JButton(Data.sowar.get(i));
 			label[i].addActionListener(this);
@@ -61,13 +67,9 @@ public class Frame extends JFrame implements ActionListener{
 			label[i].setBorder(Main.lightB);
 			label[i].setHorizontalAlignment(0);
 			panel.add(label[i]);
+			if(i==55)
+				panel.add(emptyB);
 		}
-		JButton emptyB = new JButton();
-		emptyB.setEnabled(false);
-		emptyB.setForeground(Main.textC);
-		emptyB.setBackground(Main.darkC);
-		emptyB.setBorder(Main.lightB);
-		panel.add(emptyB);
 		
 		//ProgressBar
 		openProgress();
@@ -76,6 +78,7 @@ public class Frame extends JFrame implements ActionListener{
 		progress.setForeground(Main.textC);
 		progress.setBackground(Main.lightC);
 		progress.setBorder(Main.darkB);
+		progress.setComponentOrientation(ComponentOrientation.RIGHT_TO_LEFT);
 		
 		//Label
 		titleF.setText(this.getTitle());

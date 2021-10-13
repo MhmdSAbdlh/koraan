@@ -1,9 +1,9 @@
-import java.util.ArrayList;
+﻿import java.util.ArrayList;
 
 public class Data {
 
-	static ArrayList<String> sowar = new ArrayList<String>();
-	static String endK = "اللَّهُمَّ ارْحَمْنِي بالقُرْءَانِ وَاجْعَلهُ لِي إِمَاماً وَنُوراً وَهُدًى وَرَحْمَةً *\r\n"
+	static final ArrayList<String> sowar = new ArrayList<String>();
+	static final String endK = "اللَّهُمَّ ارْحَمْنِي بالقُرْءَانِ وَاجْعَلهُ لِي إِمَاماً وَنُوراً وَهُدًى وَرَحْمَةً *\r\n"
 			+ "\r\n"
 			+ "اللَّهُمَّ ذَكِّرْنِي مِنْهُ مَانَسِيتُ وَعَلِّمْنِي مِنْهُ مَاجَهِلْتُ وَارْزُقْنِي تِلاَوَتَهُ آنَاءَ اللَّيْلِ وَأَطْرَافَ النَّهَارِ وَاجْعَلْهُ لِي حُجَّةً يَارَبَّ العَالَمِينَ *\r\n"
 			+ "\r\n"
@@ -30,67 +30,67 @@ public class Data {
 			+ "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ وَصَلَّى اللهُ عَلَى سَيِّدِنَا وَنَبِيِّنَا مُحَمَّدٍ وَعَلَى آلِهِ وَأَصْحَابِهِ الأَخْيَارِ وَسَلَّمَ تَسْلِيمًا كَثِيراً.";
 
 	Data(){
-        sowar.add("الفاتحة");
-        sowar.add("البقرة");
-        sowar.add("آل عمران");
-        sowar.add("النساء");
-        sowar.add("المائدة");
-        sowar.add("الأنعام");
         sowar.add("الأعراف");
-        sowar.add("‎الأنفال");
-        sowar.add("‎التوبة");
-        sowar.add("‎يونس");
-        sowar.add("‎هود");
-        sowar.add("‎يوسف");
-        sowar.add("‎الرعد");
-        sowar.add("‎إبراهيم");
-        sowar.add("‎الحجر");
-        sowar.add("‎النحل");
-        sowar.add("‎الإسراء");
-        sowar.add("‎الكهف");
-        sowar.add("‎مريم");
-        sowar.add("‎طه");
-        sowar.add("‎الأنبياء");
-        sowar.add("‎الحج");
-        sowar.add("‎المؤمنون");
-        sowar.add("‎النّور");
-        sowar.add("‎الفرقان");
-        sowar.add("‎الشعراء");
-        sowar.add("‎النّمل");
-        sowar.add("‎القصص");
-        sowar.add("‎العنكبوت");
-        sowar.add("‎الرّوم");
-        sowar.add("‎لقمان");
-        sowar.add("‎السجدة");
-        sowar.add("‎الأحزاب");
-        sowar.add("‎سبأ");
-        sowar.add("‎فاطر");
-        sowar.add("‎يس");
-        sowar.add("‎الصافات");
-        sowar.add("‎ص");
-        sowar.add("‎الزمر");
-        sowar.add("‎غافر");
-        sowar.add("‎فصّلت");
-        sowar.add("‎الشورى");
-        sowar.add("‎الزخرف");
-        sowar.add("‎الدّخان");
-        sowar.add("‎الجاثية");
-        sowar.add("‎الأحقاف");
+        sowar.add("الأنعام");
+        sowar.add("المائدة");
+        sowar.add("النساء");
+        sowar.add("آل عمران");
+        sowar.add("البقرة");
+        sowar.add("الفاتحة");
+        sowar.add("إبراهيم");
+        sowar.add("الرعد");
+        sowar.add("يوسف");
+        sowar.add("هود");
+        sowar.add("يونس");
+        sowar.add("التوبة");
+        sowar.add("الأنفال");
+        sowar.add("الأنبياء");
+        sowar.add("طه");
+        sowar.add("مريم");
+        sowar.add("الكهف");
+        sowar.add("الإسراء");
+        sowar.add("النحل");
+        sowar.add("الحجر");
+        sowar.add("القصص");
+        sowar.add("النّمل");
+        sowar.add("الشعراء");
+        sowar.add("الفرقان");
+        sowar.add("النّور");
+        sowar.add("المؤمنون");
+        sowar.add("الحج");
+        sowar.add("فاطر");
+        sowar.add("سبأ");
+        sowar.add("الأحزاب");
+        sowar.add("السجدة");
+        sowar.add("لقمان");
+        sowar.add("الرّوم");
+        sowar.add("العنكبوت");
+        sowar.add("الشورى");
+        sowar.add("فصّلت");
+        sowar.add("غافر");
+        sowar.add("الزمر");
+        sowar.add("ص");
+        sowar.add("الصافات");
+        sowar.add("يس");
+        sowar.add("الحجرات");
+        sowar.add("الفتح");
         sowar.add("محمد");
-        sowar.add("‎الفتح");
-        sowar.add("‎الحجرات");
-        sowar.add("‎ق");
-        sowar.add("‎الذاريات");
-        sowar.add("‎الطور");
-        sowar.add("‎النجم");
-        sowar.add("‎القمر");
-        sowar.add("الرحمن");
+        sowar.add("الأحقاف");
+        sowar.add("الجاثية");
+        sowar.add("الدّخان");
+        sowar.add("الزخرف");
         sowar.add("الواقعة");
-        sowar.add("الحديد←الممتحنة");
-        sowar.add("الصف←الطلاق");
-        sowar.add("التحريم←المعارج");
-        sowar.add("نوح←الإنسان");
-        sowar.add("المرسلات←البروج");
+        sowar.add("الرحمن");
+        sowar.add("القمر");
+        sowar.add("النجم");
+        sowar.add("الطور");
+        sowar.add("الذاريات");
+        sowar.add("ق");
         sowar.add("الطارق←الناس");
+        sowar.add("المرسلات←البروج");
+        sowar.add("نوح←الإنسان");
+        sowar.add("التحريم←المعارج");
+        sowar.add("الصف←الطلاق");
+        sowar.add("الحديد←الممتحنة");
 	}
 }
