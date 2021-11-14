@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Koraan" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/darkC</item>
+        <item name="colorPrimaryVariant">@color/lightC</item>
+        <item name="colorOnPrimary">@color/lightC</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/textC</item>
+        <item name="colorSecondaryVariant">@color/darkC</item>
+        <item name="colorOnSecondary">@color/darkC</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/lightC</item>
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html  dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ختمية القرآن الكريم</title>
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+
+    <!-- separator -->
+    <div class="bottomDiv">
+        <label class="title">ختمية القرآن الكريم</label>
+    </div>
+
+    
+    <!-- Separator -->
+    <div class="separator"></div>
+
+    <!-- Body -->
+    <!--Top Row-->
+    <div class="bottomDiv">
+        <label id="doneS" class="topBtns">السور المنجزة: 0</label>
+        <label id="todayS" class="topBtns">سورة اليوم: غير محدد</label>
+        <label id="leftS" class="topBtns">السور المتبقية: 62</label>    
+    </div> 
+
+    <!--ProgressBar and Table-->
+    <div class="rowDiv" id="bodyDiv">
+        <div class="myProgress">
+            <div id="myBar"></div>
+          </div>
+    </div>
+
+    <!--Bottom Row-->
+    <div class="bottomDiv">
+        <button class="lowBtns" onclick=goBack()>تراجع</button> 
+        <button class="lowBtns" onclick=randomS()>إختيار عشوائي</button> 
+        <button class="lowBtns" onclick=clearS()>مسح</button> 
+    </div>
+
+    <!-- Separator -->
+    <div class="separator"></div>
+
+    <!-- Get The App -->
+    <div class="sub-title">حمل التطبيق</div>
+
+    <div class="rowDiv" >
+        <a class="imgRef" href="https://github.com/MhmdSAbdlh/Kora-an/releases/download/new/Koraan.apk">
+            <img src="img/playstore.png">
+        </a>
+    
+        <a class="imgRef" href="https://github.com/MhmdSAbdlh/Kora-an/releases/download/new/Koraan.jar">
+            <img src="img/windows.png">
+        </a>
+    
+        <a class="imgRef" href="https://github.com/MhmdSAbdlh/Kora-an/archive/refs/heads/main.zip">
+            <img src="img/sourcecode.png">
+        </a>
+    </div>
+    
+    <!-- Credit -->
+    <h6><div class="credit">تصميم و برمجة محمد عبدالله</div></h6>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
