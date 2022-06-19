@@ -18,5 +18,8 @@ Available:
 	1- Web Version
 	2- Windows (You need Java SDK)
 	3- APK (android 9.0 and above)
+	
+Website:
+	https://mhmdsabdlh.github.io/koraan/
 
 Created and Designed by MhmdSAbdlh
